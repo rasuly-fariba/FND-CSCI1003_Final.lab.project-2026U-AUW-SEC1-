@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.box{
+    background:rgba(0,0,0,.75);
+    color:#fff;
+    padding:25px;
+    border-radius:15px;
+    width:650px;
+    text-align:center}
+#timer,#progress{
+    position:absolute;
+    top:15px;
+    background:rgba(0,0,0,.7);
+    color:#fff;
+    padding:10px;
+    border-radius:8px
+}
+#timer{
+    right:20px
+}
+#progress{
+    left:20px
+}
+#character{
+    position:absolute;
+    bottom:10px;
+    left:20px;
+    width:180px
+}
+input{
+    padding:10px;
+    width:250px
+}
+button{
+    padding:10px 18px
+}
